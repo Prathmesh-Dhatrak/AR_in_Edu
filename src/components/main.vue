@@ -9,7 +9,7 @@
               title="logo"
               style="font-family: 'Mrs Saint Delafield', cursive"
             >
-              AR_in_Education
+              AR_in_Education.
             </a>
           </div>
           <div class="mob-menu">
