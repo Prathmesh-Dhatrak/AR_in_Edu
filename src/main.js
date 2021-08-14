@@ -6,6 +6,5 @@ import './assets/css/app.scss';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-const myApp = createApp(App)
+createApp(App).mount('#app')
 
-myApp.mount('#app')
