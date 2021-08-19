@@ -1,5 +1,5 @@
 <template>
-  <div class="slider">
+  <div class="vehiclesslider">
     <transition-group name="fade" tag="div">
       <div v-for="i in [currentIndex]" :key="i">
         <div class="d-flex">
@@ -101,8 +101,6 @@ export default {
 };
 </script>
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
 .header_slide {
   color: #ff4411 !important;
   font-size: 48px !important;
@@ -119,7 +117,7 @@ export default {
   padding-top: 0px;
   border: 2px solid black !important;
 }
-.slider {
+.vehiclesslider {
   display: none;
 }
 .fade-enter-active,

@@ -98,8 +98,6 @@ export default {
 };
 </script>
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
 .header_slide {
   color: #ff4411 !important;
   font-size: 48px !important;
