@@ -1,4 +1,4 @@
-# Smart_Learning
+# smart_learning
 
 ## Project setup
 
