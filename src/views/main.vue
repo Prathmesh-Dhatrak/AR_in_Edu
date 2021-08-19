@@ -79,7 +79,8 @@
                 color: turquoise;
               "
             >
-              It is still magic even if you know how it is done.
+              A set of symbols in a fixed order used to represent the basic set
+              of letters from A to Z.
             </p>
           </div>
         </div>
@@ -111,7 +112,7 @@
                 color: turquoise;
               "
             >
-              Content is the reason search began in the first place.
+              An animal is a living creature such as a dog, lion, or rabbit
             </p>
           </div>
         </div>
@@ -146,7 +147,8 @@
                 color: turquoise;
               "
             >
-              A place where you are happy to be a presenter for amazing things.
+              A flower, sometimes known as a bloom or blossom, is the flowering
+              plants.
             </p>
           </div>
         </div>
@@ -178,7 +180,7 @@
                 color: turquoise;
               "
             >
-              Social networks aren’t about Web sites. They’re about experiences.
+              A thing used for transporting people or goods, especially on land
             </p>
           </div>
         </div>

@@ -24,8 +24,25 @@
               <li>
                 <a href="/"> Home </a>
               </li>
-              <li><a href="#Menu"> Menu </a></li>
-              <li><a href="#"> Help </a></li>
+              <li>
+                <div
+                  class="dropdown"
+                  style="background-color: #ffeed5 !important"
+                >
+                  <button
+                    style="background-color: #ffeed5 !important"
+                    class="dropbtn"
+                  >
+                    Menu
+                  </button>
+                  <div class="dropdown-content">
+                    <a><router-link to="/alphabets">Alphabets</router-link></a>
+                    <a><router-link to="/vehicles">Vehicles</router-link></a>
+                    <a><router-link to="/flowers">Flowers</router-link></a>
+                    <a><router-link to="/animals">Animals</router-link></a>
+                  </div>
+                </div>
+              </li>
               <li><a href="#"> About </a></li>
             </ul>
           </div>
@@ -40,6 +57,44 @@ export default {
 };
 </script>
 <style>
+.dropbtn {
+  /* background-color: #4caf50; */
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffeed5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* Header start*/
 header {
   transition: all 0.3s ease-in-out;
