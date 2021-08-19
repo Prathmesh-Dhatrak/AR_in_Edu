@@ -1,56 +1,20 @@
 <template>
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-lg-12 col-xl-3">
-          <div class="logo">
-            <a
-              href="/"
-              title="logo"
-              style="font-family: 'Mrs Saint Delafield', cursive"
-            >
-              AR_in_Education
-            </a>
-          </div>
-          <div class="mob-menu">
-            <span>
-              <i class="fa fa-bars"></i>
-            </span>
-          </div>
-        </div>
-        <div class="col-md-12 col-sm-12 col-lg-12 col-xl-9">
-          <div class="main-menu">
-            <ul class="nav">
-              <li>
-                <a href="/"> Home </a>
-              </li>
-              <li><a href="#Menu"> Menu </a></li>
-              <li><a href="#"> Help </a></li>
-              <li><a href="#"> About </a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+  <headerComponent />
   <!-- home page html  -->
   <div class="containers">
     <div class="container_content">
       <div class="container_content_inner">
         <div class="title">
-          <h1 class="h1">AR in Education</h1>
+          <h1 class="h1">Smart Learning</h1>
         </div>
         <div class="par">
           <p class="p">
-            With AR, classroom education can be extraordinary and more
-            interactive, as AR can enable teachers to show virtual examples of
-            concepts and add gaming elements to provide textbook material
+            AR system for Kids, classroom education can be extraordinary and
+            more interactive, as AR can enable teachers to show virtual examples
+            of concepts and add gaming elements to provide textbook material
             support. This will enable students to learn faster and memorize
             information.
           </p>
-        </div>
-        <div class="btns">
-          <button class="btns_more">See more</button>
         </div>
       </div>
     </div>
@@ -99,7 +63,7 @@
             </h1>
           </div>
           <div class="back">
-            <a href="/technical.html">
+            <router-link to="/alphabets">
               <h2 style="color: #ffeed5; font-family: 'Oswald', sans-serif">
                 Content Alphabets
                 <i
@@ -107,7 +71,7 @@
                   style="font-size: 15px; position: relative; top: -15px"
                 ></i>
               </h2>
-            </a>
+            </router-link>
             <p
               style="
                 font-family: EB Garamond;
@@ -131,7 +95,7 @@
             </h1>
           </div>
           <div class="back">
-            <a href="/content.html">
+            <router-link to="/animals">
               <h2 style="color: #ffeed5; font-family: 'Oswald', sans-serif">
                 Content Animals
                 <i
@@ -139,7 +103,7 @@
                   style="font-size: 15px; position: relative; top: -15px"
                 ></i>
               </h2>
-            </a>
+            </router-link>
             <p
               style="
                 font-family: EB Garamond;
@@ -166,7 +130,7 @@
             </h1>
           </div>
           <div class="back">
-            <a href="/marketing.html">
+            <router-link to="/flowers">
               <h2 style="color: #ffeed5; font-family: 'Oswald', sans-serif">
                 Content Flowers
                 <i
@@ -174,7 +138,7 @@
                   style="font-size: 15px; position: relative; top: -15px"
                 ></i>
               </h2>
-            </a>
+            </router-link>
             <p
               style="
                 font-family: EB Garamond;
@@ -198,7 +162,7 @@
             </h1>
           </div>
           <div class="back">
-            <a href="/multimedia.html">
+            <router-link to="/vehicles">
               <h2 style="color: #ffeed5; font-family: 'Oswald', sans-serif">
                 Content Vehicles
                 <i
@@ -206,7 +170,7 @@
                   style="font-size: 15px; position: relative; top: -15px"
                 ></i>
               </h2>
-            </a>
+            </router-link>
             <p
               style="
                 font-family: EB Garamond;
@@ -221,255 +185,20 @@
       </div>
     </div>
   </div>
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>About</h6>
-          <p class="text-justify">
-            Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to
-            help the upcoming programmers with the code. Scanfcode focuses on
-            providing the most efficient code or snippets as the code wants to
-            be simple. We will help programmers build up concepts in different
-            programming languages that include C, C++, Java, HTML, CSS,
-            Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.
-          </p>
-        </div>
-
-        <div class="col-xs-6 col-md-3">
-          <h6>Categories</h6>
-          <ul class="footer-links">
-            <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-            <li>
-              <a href="http://scanfcode.com/category/front-end-development/"
-                >UI Design</a
-              >
-            </li>
-            <li>
-              <a href="http://scanfcode.com/category/back-end-development/"
-                >PHP</a
-              >
-            </li>
-            <li>
-              <a href="http://scanfcode.com/category/java-programming-language/"
-                >Java</a
-              >
-            </li>
-            <li>
-              <a href="http://scanfcode.com/category/android/">Android</a>
-            </li>
-            <li>
-              <a href="http://scanfcode.com/category/templates/">Templates</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-xs-6 col-md-3">
-          <h6>Quick Links</h6>
-          <ul class="footer-links">
-            <li><a href="http://scanfcode.com/about/">About Us</a></li>
-            <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-            <li>
-              <a href="http://scanfcode.com/contribute-at-scanfcode/"
-                >Contribute</a
-              >
-            </li>
-            <li>
-              <a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a>
-            </li>
-            <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr />
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">
-            Copyright &copy; 2017 All Rights Reserved by
-            <a href="#">Scanfcode</a>.
-          </p>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li>
-              <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li>
-              <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li>
-              <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
-            </li>
-            <li>
-              <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <footerComponent />
 </template>
 
 
 
 <script>
+import headerComponent from "../components/header.vue";
+import footerComponent from "../components/footer.vue";
 export default {
+  components: { headerComponent, footerComponent },
   name: "MainComponent",
 };
 </script>
 <style>
-/* Header start*/
-header {
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 1px 6px 0 rgba(214, 220, 239, 1);
-  top: 0px;
-  background-color: #ffeed5;
-  position: sticky;
-  z-index: 40;
-  height: auto;
-}
-.logo {
-  padding: 26px 0px;
-}
-.logo a {
-  color: #111317;
-  text-transform: capitalize;
-  color: #000000;
-  font-size: 35px;
-  font-weight: 500;
-  text-decoration: none;
-}
-.mob-menu {
-  display: none;
-}
-.main-menu {
-  margin: 20px 0px;
-  float: right;
-}
-.main-menu ul.nav {
-  float: left;
-  margin-right: 20px;
-  list-style: none;
-  padding-left: 0px;
-  margin-bottom: 0px;
-  padding-top: 10px;
-}
-.nav li:first-child {
-  margin-left: 0px;
-}
-.main-menu ul {
-  display: inline-block;
-}
-.main-menu ul li {
-  position: relative;
-  display: inline-block;
-  margin: 12px 20px;
-}
-.main-menu ul li a {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.3;
-  color: #111317;
-  display: block;
-  text-decoration: none;
-}
-.main-menu ul.right-nav {
-  padding-left: 0px;
-}
-.main-menu ul.right-nav li a {
-  width: 150px;
-  height: 45px;
-  border-radius: 4px;
-  background-color: #fff;
-  text-align: center;
-  color: #111317;
-  border: solid 1px #111317;
-  vertical-align: middle;
-  display: table-cell;
-}
-.main-menu ul.right-nav li:last-child {
-  margin-right: 0px;
-}
-.main-menu ul.right-nav li.active a {
-  background-color: #111317;
-  color: #fff;
-}
-@media (max-width: 1000px) {
-  .logo {
-    display: inline-block;
-    width: 78%;
-    padding: 10px 10px 10px 0px;
-  }
-  .mob-menu {
-    display: inline-block;
-    width: 20%;
-  }
-  .mob-menu span {
-    border: solid 2px #111317;
-    display: block;
-    text-align: center;
-    border-radius: 4px;
-    padding: 2px 6px;
-    width: 50px;
-    color: #111317;
-    font-size: 25px;
-    cursor: pointer;
-  }
-  .main-menu {
-    margin: 0px 0px 20px 0px;
-    float: left;
-    background-color: #f1f1f1;
-    width: 100%;
-    display: none;
-  }
-  .main-menu ul {
-    list-style: none;
-    padding-left: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-  }
-  .main-menu ul.right-nav {
-    text-align: center;
-    margin-top: 6px;
-  }
-  ul.right-nav {
-    margin-bottom: 10px;
-  }
-  .main-menu {
-    margin: 0px 0px 20px 0px;
-    float: left;
-    background-color: #f1f1f1;
-    width: 100%;
-    display: none;
-  }
-  .main-menu ul li {
-    display: block;
-    width: 100%;
-    margin: 0px;
-  }
-  .nav li:first-child {
-    margin-left: 0px;
-  }
-  .main-menu ul li a {
-    padding: 10px 15px;
-    display: block;
-    border-bottom: solid 1px #e2e4e6;
-    text-align: center;
-  }
-  .main-menu ul.right-nav li {
-    margin-left: 0px;
-    margin-right: 30px;
-    display: inline-block;
-    width: 150px;
-  }
-  .main-menu ul.right-nav li a {
-    font-size: 18px !important;
-  }
-}
-/* header end */
 .team-founder {
   font-size: 80px;
 }
@@ -922,145 +651,4 @@ a:focus {
 }
 
 /* fadein down animation end*/
-/* footer Start */
-.site-footer {
-  background-color: #26272b;
-  padding: 45px 0 20px;
-  font-size: 15px;
-  line-height: 24px;
-  color: #737373;
-}
-.site-footer hr {
-  border-top-color: #bbb;
-  opacity: 0.5;
-}
-.site-footer hr.small {
-  margin: 20px 0;
-}
-.site-footer h6 {
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-top: 5px;
-  letter-spacing: 2px;
-}
-.site-footer a {
-  color: #737373;
-}
-.site-footer a:hover {
-  color: #3366cc;
-  text-decoration: none;
-}
-.footer-links {
-  padding-left: 0;
-  list-style: none;
-}
-.footer-links li {
-  display: block;
-}
-.footer-links a {
-  color: #737373;
-}
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
-  color: #3366cc;
-  text-decoration: none;
-}
-.footer-links.inline li {
-  display: inline-block;
-}
-.site-footer .social-icons {
-  text-align: right;
-}
-.site-footer .social-icons a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  margin-left: 6px;
-  margin-right: 0;
-  border-radius: 100%;
-  background-color: #33353d;
-}
-.copyright-text {
-  margin: 0;
-}
-@media (max-width: 991px) {
-  .site-footer [class^="col-"] {
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 767px) {
-  .site-footer {
-    padding-bottom: 0;
-  }
-  .site-footer .copyright-text,
-  .site-footer .social-icons {
-    text-align: center;
-  }
-}
-.social-icons {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-.social-icons li {
-  display: inline-block;
-  margin-bottom: 4px;
-}
-.social-icons li.title {
-  margin-right: 15px;
-  text-transform: uppercase;
-  color: #96a2b2;
-  font-weight: 700;
-  font-size: 13px;
-}
-.social-icons a {
-  background-color: #eceeef;
-  color: #818a91;
-  font-size: 16px;
-  display: inline-block;
-  line-height: 44px;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  margin-right: 8px;
-  border-radius: 100%;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-.social-icons a:active,
-.social-icons a:focus,
-.social-icons a:hover {
-  color: #fff;
-  background-color: #29aafe;
-}
-.social-icons.size-sm a {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px;
-}
-.social-icons a.facebook:hover {
-  background-color: #3b5998;
-}
-.social-icons a.twitter:hover {
-  background-color: #00aced;
-}
-.social-icons a.linkedin:hover {
-  background-color: #007bb6;
-}
-.social-icons a.dribbble:hover {
-  background-color: #ea4c89;
-}
-@media (max-width: 767px) {
-  .social-icons li.title {
-    display: block;
-    margin-right: 0;
-    font-weight: 600;
-  }
-}
-
-/* footer end */
 </style>

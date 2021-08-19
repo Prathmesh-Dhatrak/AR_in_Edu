@@ -1,18 +1,8 @@
 <template>
-  <main-component></main-component>
+  <router-view />
 </template>
 
-<script>
-import MainComponent from "./components/main.vue";
-export default {
-  name: "App",
-  components: {
-    MainComponent,
-  },
-};
-</script>
-
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
